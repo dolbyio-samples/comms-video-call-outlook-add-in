@@ -15,7 +15,7 @@ Then type, `npm run build` and use the dist folder for deployment.
 
 -> To learn more about Outlook add-ins: https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/ 
 
--> To learn more about creating add-ins to schedule meetings on Outlook: https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/online-meeting?tabs=non-mobile
+-> To learn more about creating add-ins to schedule meetings in Outlook: https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/online-meeting?tabs=non-mobile
 
 -> To learn more about creating your own Video Call App with Dolby.io: https://github.com/dolbyio-samples/comms-app-react-videocall
 
