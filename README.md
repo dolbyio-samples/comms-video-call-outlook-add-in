@@ -13,6 +13,11 @@ You can either run the add-in in your local server and add the manifest.xml file
 Then type, `npm run build` and use the dist folder for deployment.
 6. To upload the manifest.xml file as an add-in to your Outlook client follow the [Sideload manually guide](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing?tabs=windows#sideload-manually). To upload the URL of the deployed manifest.xml file, follow the same steps in the [Sideload manually guide](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing?tabs=windows#sideload-manually), but select `Add from URL` and paste your deployed manifest.xml URL. 
 
+## Deployment Runbook
+This repository is hosted on devrel@dolby.com's Netlify account. After applying getting started step 5, and after deploying this repo from Github, netlfiy.toml uses `dist` as publish directory and `npm run build` as build command. If you want to change meeting domain name, you need to change the  environment variable(DOMAIN_NAME) in Netlify site settings. 
+
+<img width="1393" alt="netlify-env" src="https://github.com/dolbyio-samples/comms-video-call-outlook-add-in/assets/63646687/b3199399-bd08-4735-ae37-0d85e798eb9e">
+
 -> To learn more about Outlook add-ins: https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/ 
 
 -> To learn more about creating add-ins to schedule meetings in Outlook: https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/online-meeting?tabs=non-mobile
