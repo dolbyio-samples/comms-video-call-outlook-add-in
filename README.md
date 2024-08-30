@@ -1,3 +1,5 @@
+# :warning: This repository is no longer maintained :warning:
+
 # Outlook Add-in For Scheduling Video Conferences
 
 This repository is a ready to use Outlook Add-in sample to schedule instant video calls without having to leave Outlook Calendar. With the click of a button, meetings are scheduled and the relevant meeting information is sent via a calendar invitation. 
